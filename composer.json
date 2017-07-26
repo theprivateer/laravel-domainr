@@ -1,0 +1,26 @@
+{
+  "name": "theprivateer/laravel-domainr",
+  "description": "A Lavarel wrapper for the Domainr API.",
+  "authors" : [{
+    "name" : "Phil Stephens",
+    "email" : "emailtheprivateer@gmail.com"
+  }
+  ],
+  "keywords" : [
+    "Domainr", "API", "Laravel"
+  ],
+  "homepage" : "https://github.com/theprivateer/laravel-domainr",
+  "license" : [
+    "MIT"
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "theprivateer/domainr": "^0.1.0",
+    "illuminate/support": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Privateer\\LaravelDomainr\\": "src/"
+    }
+  }
+}
